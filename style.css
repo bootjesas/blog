@@ -1,0 +1,180 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background-color: #10002b;
+    color: #e0e0e0;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .top-header {
+    background-color: #10041a;
+    padding: 20px 0;
+    border-bottom: 2px solid #9d4edd;
+    box-shadow: 0 4px 10px rgba(157, 78, 221, 0.3);
+  }
+  
+  .top-header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #9d4edd;
+    text-shadow: 0 0 8px #9d4edd;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+  }
+  
+  .nav-links li a {
+    color: #e0e0e0;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+  }
+  
+  .nav-links li a:hover {
+    color: #9d4edd;
+    text-shadow: 0 0 5px #9d4edd;
+  }
+  
+  .blog-post {
+    margin-top: 40px;
+    padding-bottom: 60px;
+  }
+  
+  .post-title {
+    font-size: 2.5rem;
+    color: #ffffff;
+    text-shadow: 0 0 6px #5a189a;
+  }
+  
+  .post-meta {
+    font-size: 0.95rem;
+    color: #bbb;
+    margin-bottom: 20px;
+  }
+  
+  .blog-post h3 {
+    color: #9d4edd;
+    margin-top: 40px;
+    font-size: 1.5rem;
+    text-shadow: 0 0 5px #9d4edd;
+  }
+  
+  .blog-post p,
+  .blog-post li {
+    line-height: 1.8;
+    font-size: 1.05rem;
+  }
+  
+  ul, ol {
+    margin: 15px 0 25px 25px;
+  }
+  
+  /* Featured Image met organische vorm */
+  img.featured-img,
+  img.section-img {
+    width: 100%;
+    height: auto;
+    margin: 25px 0;
+    border-radius: 30px;
+    box-shadow: 0 0 20px rgba(157, 78, 221, 0.4);
+    clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+    transition: transform 0.3s ease;
+  }
+  
+  img.featured-img:hover,
+  img.section-img:hover {
+    transform: scale(1.02);
+  }
+  
+  .post-footer {
+    font-style: italic;
+    margin-top: 40px;
+    color: #ccc;
+  }
+  
+  .site-footer {
+    background-color: #1a032c;
+    text-align: center;
+    padding: 30px 10px;
+    color: #888;
+    font-size: 0.85rem;
+    margin-top: 60px;
+  }
+  
+  /* 🔥 Reactieformulier volledig in stijl */
+  .comments-section {
+    margin-top: 60px;
+    padding: 30px;
+    background-color: #000000;
+    border-top: 3px solid #5a189a;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(157, 78, 221, 0.2);
+  }
+  
+  .comments-section h2 {
+    color: #9d4edd;
+    text-shadow: 0 0 8px #9d4edd;
+    margin-bottom: 20px;
+  }
+  
+  .comment-form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .comment-form label {
+    margin: 10px 0 5px;
+    color: #e0e0e0;
+  }
+  
+  .comment-form input,
+  .comment-form textarea {
+    padding: 12px;
+    font-size: 1rem;
+    background-color: #2a0845;
+    border: 1px solid #5a189a;
+    border-radius: 6px;
+    color: #fff;
+    resize: vertical;
+  }
+  
+  .comment-form input:focus,
+  .comment-form textarea:focus {
+    outline: none;
+    border-color: #9d4edd;
+    box-shadow: 0 0 10px #9d4edd;
+  }
+  
+  .comment-form button {
+    margin-top: 15px;
+    padding: 12px;
+    background-color: #9d4edd;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s, box-shadow 0.3s;
+    box-shadow: 0 0 10px #9d4edd;
+  }
+  
+  .comment-form button:hover {
+    background-color: #7b2cbf;
+    box-shadow: 0 0 15px #9d4edd;
+  }
+  
